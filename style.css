@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #645b5b;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 0 0 3px #288d14, 0 0 5px #9f2616;
+}
+
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+}
+
+.ingredients, .instructions {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: url('cake.jpg') no-repeat center center;
+    background-size: cover; 
+    color: rgb(255, 255, 255);
+}
+
+.ingredients2, .instructions2 {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: url('pizza.avif') no-repeat center center;
+    background-size: cover; 
+    color: rgb(255, 255, 255);
+}
+
+.ingredients3, .instructions3 {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: url('langos.jpeg') no-repeat center center;
+    background-size: cover;
+    color: rgb(255, 255, 255);
+}
+
+.ingredients4, .instructions4 {
+    background: white;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background: url('palacsinta.jpg') no-repeat center center;
+    background-size: cover; 
+    color: rgb(255, 255, 255);
+}
+
+h2 {
+    margin-top: 0;
+    text-shadow: 0 0 3px #288d14, 0 0 5px #9f2616;
+    font-size: 21px;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 0;
+    padding: 0 20px;
+}
+
+ol {
+    margin: 0;
+    padding: 0 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-shadow: 0 0 3px #288d14, 0 0 5px #420505;
+}
+
+footer a {
+    color: #d1c5c5;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+li {
+    text-shadow: 0 0 3px #49a437, 0 0 5px #9f2616;
+    
+}
